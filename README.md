@@ -24,10 +24,6 @@ LegalTech Revolution is a meticulously crafted platform aimed at revolutionizing
 - Our platform provides clients with a comprehensive legal knowledge base comprising articles, guides, and educational materials.
 - Empowering clients with valuable resources enables them to stay informed about the latest legal developments, precedents, and changes in regulations.
 
-### Enhanced Practice for Lawyers
-
-- Legal professionals can create comprehensive profiles showcasing their expertise, experience, and achievements.
-- Our platform serves as a powerful tool for enhancing their practice and expanding their client base by increasing visibility and attracting potential clients more effectively.
 
 
 

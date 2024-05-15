@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap" rel="stylesheet">
+<style>
+
+    .no-color-change {
+      text-decoration: none; /* Remove underline */
+      color: inherit; /* Inherit color from parent element */
+      cursor: pointer; /* Set cursor to pointer for better user experience */
+    }
+  </style>
+</head>
+<body>
+<nav>
+
+    <ul id="menu-links">
+        <li><a href="#" class="no-color-change">Home</a></li>
+        <li><a href="vault.html" class="no-color-change">Vault</a></li>
+    </ul>
+    <button class="nav-btn"> Main_Page <img src="images/arrow-white.png" alt="arrow"></button>
+    <img src="images/menu.png" alt="" class="menu-icon" onclick="togglMenu()">
+
+</nav>
+<div class="header">
+    <br>
+    <br>
+    <h1><span>Digital</span><br><span>Library<span></h1><br>
+    <div class="btn-container">
+        <button class="btn-dark">Get in contact<img src="images/phone.png" alt=""></button> 
+        <button class="btn-light">Know More <img src="images/arrow-black.png"></button>
+
+    </div>
+    <p>Introducing a comprehensive digital legal repository that houses statutes, case laws, and journals, accessible to legal professionals, government entities, and the public. This digital vault ensures secure and tamper-proof storage of all files, providing a reliable resource for legal research and reference. The repository is designed to safeguard sensitive information while maintaining ease of access for authorized users, promoting transparency and efficiency in the legal field.<br>
+ <p>
+
+
+</div>
+><script>
+    let navbar = document.querySelector('nav');
+    let menuLinks = document.getElementById("menu-links");
+
+    function togglMenu(){
+        menuLink.classList.toggle('show-menu');
+
+
+    }
+    window.onscroll=function(){
+        if(window.scrollY > 0){
+            navbar.style.background= '#eefff9'
+        }else{
+            navbar.style.background='transparent';
+        }
+
+    }
+</script>
+</body>
+</html>
